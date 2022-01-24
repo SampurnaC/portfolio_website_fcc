@@ -2,6 +2,9 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
+.nav-link, .navbar-brand {
+    color: white !important;
+}
 /* hero background image */
 .bgimage {
     height:100vh;
