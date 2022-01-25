@@ -2,9 +2,7 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
-.nav-link, .navbar-brand {
-    color: white !important;
-}
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -29,10 +27,10 @@
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+/* #about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
-}
+} */
 #contact {
     padding-bottom: 4rem;
 }
@@ -41,6 +39,25 @@
     width: 100%;
 }
 
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
 
 /* social media icons styling */
 .social-icons {
