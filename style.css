@@ -24,12 +24,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    text-shadow: 0.02em 0.02em 0.02em gray
+    /* text-shadow: 0.02em 0.02em 0.02em gray */
     
-}
-/* link text */
-#links {
-    text-shadow: 0.1em 0.1em 0.1em gray
 }
 
 /* spacing on all sections */

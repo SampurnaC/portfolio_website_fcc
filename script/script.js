@@ -4,10 +4,16 @@ console.log(header)
 window.onscroll = function() {
     const top = window.scrollY;
     if(top >=100) {
-        header.classList.add('navbarDark');
+        // header.classList.add('navbarDark');
+        header.classList.remove('opacity-25');
+        header.classList.add('opacity-100');
     }
     else {
-        header.classList.remove('navbarDark');
+        // header.classList.remove('navbarDark');
+        header.classList.remove('opacity-100');
+        header.classList.add('opacity-25');
+
+        
     }
 }
 // collapse navbar after click on small devices
