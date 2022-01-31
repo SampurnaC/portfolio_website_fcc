@@ -6,11 +6,11 @@ window.onscroll = function() {
     if(top >=100) {
         // header.classList.add('navbarDark');
         header.classList.remove('opacity-25');
-        header.classList.add('opacity-100');
+        header.classList.add('opacity-75');
     }
     else {
         // header.classList.remove('navbarDark');
-        header.classList.remove('opacity-100');
+        header.classList.remove('opacity-75');
         header.classList.add('opacity-25');
 
         
